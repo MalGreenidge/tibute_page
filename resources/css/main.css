@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+/* Heading Section */
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+#heading, #tribute, footer {
+    text-align: center;
+}
+
+/* Tribute Section */
+
+#tribute {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 20px 0;
+    margin: 20px;
+}
+
+.tribute-section p {
+    padding: 10px;
+}
+
+/* Timeline Section */
+
+#timeline {
+   max-width: 500px;
+   margin: auto;
+   line-height: 1.5;
+}
+
+.year {
+    font-weight: 700;
+}
+
+li {
+    padding: 5px;
+}
+
+/* footer */
+
+footer {
+    margin: 50px;
+}
